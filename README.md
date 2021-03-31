@@ -31,7 +31,7 @@ namespace ConsoleApp1
             while (gameEnd == false)
             {
                 Console.Clear();
-                Print(board);//print het af voor de eerste keer
+                Print(board);
 
                 Console.Write("Choose a row: ");
                 int row = Convert.ToInt32(Console.ReadLine());
